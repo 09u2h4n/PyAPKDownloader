@@ -3,7 +3,7 @@ Apk Downloader is a Python module that allows you to download Android APK files 
 ## Installation 🚀
 You can install Apk Downloader using pip:
 
-    pip install apkdownloader
+    ~~pip install apkdownloader~~
 
 ## Usage 📦
 The Apk Downloader module includes classes for Aptoide and ApkPure, which you can use to download APK files from the source of your choice.
@@ -17,7 +17,7 @@ To download an APK file using the Aptoide class, you can use the following examp
 -   `file_name`: Specifies the name of the downloaded APK file.
 -   `version`: Specifies the version you want to download (e.g., you can use "latest" to get the latest version).
 -   `in_background`: Specifies whether the download process will run in the background.
--   `limit`: Specifies the duration limit for the download process.
+-   `limit`: Determines the depth of the search when searching for an application. (The more it is, the slower it becomes.)
 ### Using ApkPure 🌐
 To download an APK file using the ApkPure class, you can use the following example:
 
