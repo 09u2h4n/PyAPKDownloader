@@ -4,6 +4,14 @@ Apk Downloader is a Python module that allows you to download Android APK files 
 You can install Apk Downloader using pip:
 
     pip install pyapks
+    
+OR you can use setup.py to set dist directory and use.
+
+    pip install .
+
+I recommend to use virtual environment.
+
+    python3 -m venv venv && pip install .
 
 ## Usage 📦
 The Apk Downloader module includes classes for Aptoide and ApkPure, which you can use to download APK files from the source of your choice.
