@@ -1,7 +1,7 @@
-﻿# Apk Downloader Module Documentation
-Apk Downloader is a Python module that allows you to download Android APK files using alternative sources such as Aptoide and ApkPure. This documentation serves as a general introduction and may require customization for your specific use case.
+﻿# Pyapks Module Documentation
+Pyapks is a Python module that allows you to download Android APK files using alternative sources such as Aptoide and ApkPure. This documentation serves as a general introduction and may require customization for your specific use case.
 ## Installation 🚀
-You can install Apk Downloader using pip:
+You can install Pyapks using pip:
 
     pip install pyapks
     
@@ -14,7 +14,7 @@ I recommend to use virtual environment.
     python3 -m venv venv && pip install .
 
 ## Usage 📦
-The Apk Downloader module includes classes for Aptoide and ApkPure, which you can use to download APK files from the source of your choice.
+The Pyapks module includes classes for Aptoide and ApkPure, which you can use to download APK files from the source of your choice.
 ### Using Aptoide 🛒
 To download an APK file using the Aptoide class, you can use the following example:
 
@@ -42,6 +42,6 @@ Note: Entries like `package_name="com.whatsapp"` are just examples. You can chan
 
 ## Contact and Support 📧
 
-For more information about the Apk Downloader module, questions, or support, please refer to the [GitHub repository](https://github.com/09u2h4n/pyapks).
+For more information about the Pyapks module, questions, or support, please refer to the [GitHub repository](https://github.com/09u2h4n/pyapks).
 
-This documentation provides an overview of the basic usage of the Apk Downloader module.
+This documentation provides an overview of the basic usage of the Pyapks module.
