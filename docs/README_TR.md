@@ -1,4 +1,8 @@
-'﻿# Pyapks Modülü Belgeleri
+---
+[English](https://github.com/09u2h4n/pyapks/blob/main/README.md) | [Turkish](https://github.com/09u2h4n/pyapks/blob/main/docs/README_TR.md)
+---
+
+# Pyapks Modülü Belgeleri
 Pyapks, Aptoide ve ApkPure gibi alternatif kaynakları kullanarak Android APK dosyalarını indirmenizi sağlayan bir Python modülüdür. Bu belge, genel bir tanıtım olarak hizmet verir ve belirli kullanım durumlarınıza göre özelleştirmeyi gerektirebilir.
 ## Kurulum 🚀
 Pyapks'ı pip kullanarak kurabilirsiniz:
