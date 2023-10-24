@@ -1,4 +1,8 @@
-﻿# Pyapks Module Documentation
+---
+[English](https://github.com/09u2h4n/pyapks/blob/main/README.md) | [Turkish](https://github.com/09u2h4n/pyapks/blob/main/docs/README_TR.md)
+---
+
+# Pyapks Module Documentation
 Pyapks is a Python module that allows you to download Android APK files using alternative sources such as Aptoide and ApkPure. This documentation serves as a general introduction and may require customization for your specific use case.
 ## Installation 🚀
 You can install Pyapks using pip:
