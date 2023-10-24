@@ -1,17 +1,16 @@
 ﻿# Apk Downloader Module Documentation
 Apk Downloader is a Python module that allows you to download Android APK files using alternative sources such as Aptoide and ApkPure. This documentation serves as a general introduction and may require customization for your specific use case.
 ## Installation 🚀
-~~You can install Apk Downloader using pip:~~
+You can install Apk Downloader using pip:
 
-    pip install apkdownloader
+    pip install pyapks
 
-## ❗You have to clone this repository to use. Pip won't work!❗
 ## Usage 📦
 The Apk Downloader module includes classes for Aptoide and ApkPure, which you can use to download APK files from the source of your choice.
 ### Using Aptoide 🛒
 To download an APK file using the Aptoide class, you can use the following example:
 
-    from apkdownloader.aptoide import Aptoide
+    from pyapks.aptoide import Aptoide
     Downloader = Aptoide()
     Downloader.download_by_package_name(package_name="com.whatsapp", file_name="Whatsapp", version="latest", in_background=False, limit=30)
 -   `package_name`: Specifies the package name of the application you want to download.
@@ -22,7 +21,7 @@ To download an APK file using the Aptoide class, you can use the following examp
 ### Using ApkPure 🌐
 To download an APK file using the ApkPure class, you can use the following example:
 
-    from apkdownloader.apkpure import ApkPure
+    from pyapks.apkpure import ApkPure
     Downloader = ApkPure()
     Downloader.download_by_package_name(package_name="com.whatsapp", file_name="Whatsapp", version="latest", app_ext="xapk", in_background=False)
 -   `package_name`: Specifies the package name of the application you want to download.
@@ -35,6 +34,6 @@ Note: Entries like `package_name="com.whatsapp"` are just examples. You can chan
 
 ## Contact and Support 📧
 
-For more information about the Apk Downloader module, questions, or support, please refer to the [GitHub repository](https://github.com/09u2h4n/apkdownloader).
+For more information about the Apk Downloader module, questions, or support, please refer to the [GitHub repository](https://github.com/09u2h4n/pyapks).
 
 This documentation provides an overview of the basic usage of the Apk Downloader module.
