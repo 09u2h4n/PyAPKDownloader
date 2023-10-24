@@ -9,7 +9,7 @@ OR you can use setup.py to set dist directory and use.
 
     pip install .
 
-I recommend to use virtual environment.
+I recommend to use virtual in environment.
 
     python3 -m venv venv && pip install .
 
