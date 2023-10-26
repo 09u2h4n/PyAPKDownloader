@@ -8,7 +8,9 @@ Pyapks is a Python module that allows you to download Android APK files using al
 You can install Pyapks using pip:
 
     pip install pyapks
-    
+
+---
+
 OR you can use setup.py to set dist directory and use.
 
     pip install .
