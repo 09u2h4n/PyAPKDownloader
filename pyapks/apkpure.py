@@ -1,4 +1,4 @@
-from apkdownloader.apkdownloadertools import ApkDownloaderTools
+from pyapks.apkdownloadertools import ApkDownloaderTools
 import requests
 from bs4 import BeautifulSoup
 
@@ -24,9 +24,7 @@ class ApkPure:
                 return data
             if app_version == version and app_ext == extension:
                 return data
-        #print(f"Not found {version}")
-        return(f"Not found {version}")
-        #exit()
+        raise (f"Not found {version}")
 
     def __app_info(self, element: any):
         main_data = element

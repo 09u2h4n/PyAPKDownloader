@@ -1,4 +1,4 @@
-from apkdownloader.apkdownloadertools import ApkDownloaderTools
+from pyapks.apkdownloadertools import ApkDownloaderTools
 import requests
 
 
@@ -26,8 +26,7 @@ class Aptoide(object):
                 else:
                     continue
             else:
-                print(f"Not found\nIf you want deep search you need to decrease the \"limit\" (It is the limit of app versions' number.\nThe latest version is {json_data_list[0]['file']['vername']}")
-                exit()
+                raise (f"Not found\nIf you want deep search you need to decrease the \"limit\" (It is the limit of app versions' number.\nThe latest version is {json_data_list[0]['file']['vername']}")
 
 
     def __get_app_infos_by_app_id(self, app_id: str):
