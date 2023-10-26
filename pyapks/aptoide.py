@@ -59,7 +59,7 @@ class Aptoide(object):
         app_ext = app_infos["app_ext"]
         app_version = app_infos["app_version"]
         if file_name == "default":
-            file_name = app_infos["app_name"]
+            file_name = app_infos["app_fullname"]
         else:
             file_name = f"{file_name} {app_version}.{app_ext}"
         if in_background:
