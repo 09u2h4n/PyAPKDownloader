@@ -9,8 +9,6 @@ You can install Pyapks using pip:
 
     pip install pyapks
 
----
-
 OR you can use setup.py to set dist directory and use.
 
     pip install .
