@@ -20,10 +20,12 @@ class ApkPure:
         for data in list_elements:
             app_version = data["data-dt-version"]
             app_ext = data.find_next("span", class_="ver-item-t").text.lower()
-            if version == "latest" and extension == "xapk" or "apk":
+            if version == "latest" and app_ext == extension:
                 return data
             if app_version == version and app_ext == extension:
                 return data
+            else:
+                continue
         raise (f"Not found {version}")
 
     def __app_info(self, element: any):
@@ -58,6 +60,7 @@ class ApkPure:
         url = f"{self.apkpure_base_url}{package_name}/versions"
         list_elements = self.__list_versions(url=url)
         element = self.__filter_elements(list_elements=list_elements, version=version, extension=app_ext)
+        print(element)
         app_info = self.__app_info(element=element)
         app_version_code = app_info["app_version_code"]
         app_ext_type = app_info["app_ext_type"]
@@ -66,4 +69,5 @@ class ApkPure:
             file_name = app_info["app_fullname"]
         else:
             file_name = f"{file_name} {app_info['app_version']}.{app_ext}"
+        print(app_info)
         self.__download_by_version_code(package_name=package_name, version_code=app_version_code, file_name=file_name, app_ext_type=app_ext_type, in_background=in_background, total_size=app_total_size)
