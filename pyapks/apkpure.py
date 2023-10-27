@@ -60,7 +60,6 @@ class ApkPure:
         url = f"{self.apkpure_base_url}{package_name}/versions"
         list_elements = self.__list_versions(url=url)
         element = self.__filter_elements(list_elements=list_elements, version=version, extension=app_ext)
-        print(element)
         app_info = self.__app_info(element=element)
         app_version_code = app_info["app_version_code"]
         app_ext_type = app_info["app_ext_type"]
