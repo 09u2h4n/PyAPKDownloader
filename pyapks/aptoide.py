@@ -26,7 +26,8 @@ class Aptoide(object):
                 else:
                     continue
             else:
-                raise (f"Not found\nIf you want deep search you need to decrease the \"limit\" (It is the limit of app versions' number.\nThe latest version is {json_data_list[0]['file']['vername']}")
+                print(f"Not found\nIf you want deep search you need to decrease the \"limit\" (It is the limit of app versions' number.\nThe latest version is {json_data_list[0]['file']['vername']}")
+                exit()
 
 
     def __get_app_infos_by_app_id(self, app_id: str):
