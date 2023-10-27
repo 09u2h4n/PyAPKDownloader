@@ -26,7 +26,8 @@ class ApkPure:
                 return data
             else:
                 continue
-        raise (f"Not found {version}")
+        print(f"Not found! version:{version}|app_extension:{app_ext}")
+        exit()
 
     def __app_info(self, element: any):
         main_data = element
@@ -68,5 +69,4 @@ class ApkPure:
             file_name = app_info["app_fullname"]
         else:
             file_name = f"{file_name} {app_info['app_version']}.{app_ext}"
-        print(app_info)
         self.__download_by_version_code(package_name=package_name, version_code=app_version_code, file_name=file_name, app_ext_type=app_ext_type, in_background=in_background, total_size=app_total_size)
