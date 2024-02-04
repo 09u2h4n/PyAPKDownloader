@@ -51,7 +51,7 @@ For more information about the PyAPKDownloader module, questions, or support, pl
 This documentation provides an overview of the basic usage of the PyAPKDownloader module.
 
 ## ToDo 🛠️
-The code will be optimized
-New classes will be added
-Apkpure will be fixed
-New method (Js-powered requests) will be added 
+* The code will be optimized
+* New classes will be added
+* Apkpure will be fixed
+* New method (Js-powered requests) will be added 
