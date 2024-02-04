@@ -49,3 +49,9 @@ Note: Entries like `package_name="com.whatsapp"` are just examples. You can chan
 For more information about the PyAPKDownloader module, questions, or support, please refer to the [GitHub repository](https://github.com/09u2h4n/PyAPKDownloader).
 
 This documentation provides an overview of the basic usage of the PyAPKDownloader module.
+
+## ToDo 🛠️
+The code will be optimized
+New classes will be added
+Apkpure will be fixed
+New method (Js-powered requests) will be added 
